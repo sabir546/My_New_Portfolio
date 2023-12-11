@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/Portfolionew')
+mongoose.connect('mongodb+srv://mdgulamsabir9:xUi5jfWweMiSuaMJ@cluster0.3yqgcqg.mongodb.net/?retryWrites=true&w=majority')
 const portfolio = new mongoose.Schema({
     name: String,
     email:String,
