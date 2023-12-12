@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://mdgulamsabir9:xUi5jfWweMiSuaMJ@cluster0.3yqgcqg.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect("mongodb+srv://mdgulamsabir9:1BQUzRsfi91dZPEq@new-portfolio.8yefuo6.mongodb.net/?retryWrites=true&w=majority")
 const portfolio = new mongoose.Schema({
     name: String,
     email:String,

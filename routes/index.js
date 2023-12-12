@@ -3,7 +3,11 @@ var router = express.Router();
 const database=require('../models/database')
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
+});
+
+router.get('/input', function(req, res, next) {
+  res.render('index');
 });
 
 

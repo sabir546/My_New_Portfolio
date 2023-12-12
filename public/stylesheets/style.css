@@ -960,7 +960,7 @@ span.call {
   border-style: solid;
   border-image: linear-gradient(to top, #0072ff, #00c6ff) 1;
   background: linear-gradient(to top, #00c6ff 30%, #0072ff 70%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   font-size: 1em;
   font-weight: 900;
