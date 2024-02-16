@@ -1262,8 +1262,8 @@ span.call {
   width: 90%;
   margin: auto;
   position: relative;
-  transition-timing-function: cubic-bezier(0, 1, 1, 1);
-  transition: left 0.5s, opacity 0.8s, width 3s;
+   transition-timing-function: cubic-bezier(0, 1, 1, 1); 
+   transition: left 0.5s, opacity 0.8s, width 3s; 
   box-shadow: 0 0rem 20px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
 }
