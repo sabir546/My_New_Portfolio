@@ -12,13 +12,20 @@ router.get('/input', function(req, res, next) {
 
 
 router.post('/input',async function(req, res, next) {
-  await database.create(req.body)
   try {
+    await database.create({
+      name:req.body.name,
+      email:req.body.email,
+      message:req.body.message,
+    },
+    
     res.redirect('/')
+    )
     
   } catch (error) {
     res.send(error)
   }
+  
 });
 
 module.exports = router;
